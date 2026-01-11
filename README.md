@@ -1,5 +1,4 @@
-# CSD-340
-Web Development with HTML and CSS
+# CSD-340: Web Development with HTML and CSS
 
 ## Week One
 **Monday, January 12, 2026 to Sunday January 18, 2026**
