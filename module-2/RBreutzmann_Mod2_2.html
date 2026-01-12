@@ -3,38 +3,55 @@
     CSD 340 - Web Development with HTML and CSS
     Assignment 2.2
     Due Date: January 18th, 2026
-
-    Assignment Instructions Step 1 - HTML File
-
-        Create a new directory under your local csd-340 folder (repository) and name it module-2
-        Create a new HTML document and name it <LastName_Mod2_2>.html and add it to your module-2 directory
-        Create a new CSS document and name it <LastName_Mod2_2>.css and add it to your module-2 directory
-        Using what we learned from Module 1, build a new HTML page, add your name and assignment number (documentation) and make sure it validates with 0 errors. 
-        
-        Contents of <LastName_Mod2_2>.html
-            In the <head> of the HTML document add four (4) meta tags 
-                Hint: see pages 191-192 for help on what I am expecting
-            In the <head> of the HTML document add a link to <yourLastName_mod.2_2>.css
-                Hint: for help with linking CSS files, refer to page 236 of the course’s textbook 
-            Give the HTML document a title of “CSD 340 Development with HTML and CSS” 
-                Hint: this goes in the <title></title> element
-            In the body of the HTML document add a <div> and give it an ID of “container” 
-                <div id=”container”>
-            For the remaining HTML sections, we will be adding paragraphs of text and formatting to resemble creating a page from a book
-                Add an h1 tag and with the following text: “Assignment 2.2 – Building a Web Page Exercise, Part 2”
-                Add an h2 tag and give this header a chapter title 
-                Write four (4) paragraphs, each with at least three sentences, that provide an introduction to you. You might describe your hometown, childhood, hobbies, family, etc.
-                Wrap each paragraph in <p> tags 
-                Give the first paragraph a CSS class of “intro”
-                Pick a single sentence in any of the paragraphs and apply a CSS class of “sentence” to it
-                    Hint: use the <span></span> element and give the span element a CSS class of sentence
-                Underneath the paragraphs add a horizontal line 
-                    Hint: use the <hr /> element 
-                Underneath the horizontal line, add Bellevue University's full address (street, city, state, and zip) and a URL to their website
-                    Have the address sit below the horizontal line
-                        Hint: use the <address></address> element
-                    Put each part of the address on its own line, as you would address an envelope you mail (use the paragraph tag)
-                        First line: Bellevue University (website link)
-                        Second line: street address
-                        Third line: city, state, zip
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="RBreutzmann_Mod2_2.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+    <div id="container">
+    <h1>Assignment 2.2 – Building a Web Page Exercise, Part 2</h1>
+    <h2>Introductions</h2>
+        <p class="intro">
+            My name is Robert Breutzmann and I was born in NE Iowa in a town called Waverly.I have been in college twice before now, not performing very well either time.  I believe the main problem was that I was unprepaired for the amount of time and effort that was required for college level courses vs High School.  In college, a lot of the work is undirected and self-motivated.  This means that you have to manage your own time, and find time outside of classes to do the work and learn the material, and I was used to learning everything in class and having enough time to do all the assignments during class, so the more free-style learning environment was a big challenge for me.  Coming back at the age of 37 I was better prepared for what was going to be expected and this has allowed me to succeed this time around (with a GPA of 4.0!)
+        </p>
+
+        <p>
+            I am married to my beautiful wife Brittney and we have two children: Drake (9) and Elliott (7). The family keeps me very busy as Drake enjoys being active in just about every sport there is and even has me coaching two of them (Baseball and Football). I'm currently learning about Wrestling as he is doing that and I know nothing about it, so I have to learn the rules and how to encourage him through it. Elliott is more of a stay at home kid, which makes sense as he is Autistic. Having an Autistic child has taught me a lot of things about patience and acceptance. There are things that he can do that are amazing, like take apart Lego sets and put them back together without instructions (meant for 16+), but his struggles are also in the front of my mind.
+        </p>
+        
+        <p>
+            Another thing that Elliott has taught me is that I, myself, am on the Autism Spectrum.  Learning all the signs of Autism and the struggles that Elliott could face forced me to reflect on my own childhood and I realized that I had many of these struggles and still have some of them.  So, I went out and saw a therapist to get an official diagnosis to become diagnosed with Autism Spectrum Disorder and ADHD. <span class="sentence">This has allowed me to reflect on the struggles I face on a day to day basis (and perhaps why I struggled with college the first two go-rounds) because knowing where the shortfalls are allow me to make strategies (and medication that help with focus for ADHD) so that I can more easily overcome and succeed.</span>
+        </p>
+        
+        <p>
+            For work, I work at Target Distribution as a Warehouse Worker.  My job entails working in the Warehousing department.  This department is the department that stores and pulls from storage when a store needs an item.  Inbound receives and Outbound ships. Packing deals with partial cases (when a store doesn't receive a full case, they take out the partial cases, repack it, and send those to Outbound).  Sometimes, Inbound sends directly to Outbound or Packing, but when they don't, it comes to Warehousing for storage.  The Warehousing department will later pick the item when it is needed and send it to Outbound to send to a store.  Sometimes, I work in the Inventory Control and Quality Assurance department as well.  They track and research errors through all departments and trace where the error (called defects) occurred and try to find a root cause in an attempt to minimize or prevent them in the future by making new processes and procedures to safeguard against them.
+        </p>
+
+        <p>
+            There are not a lot of things I do in my free time.  This is mostly because I don't get a lot of free time between family, work, and school.  One of the activities I enjoy is playing video games.  Sometimes I play with my son Drake who likes to play sports games like Madden NFL, FIFA Soccer, and NBA 2K.  When I play alone, RPGs are my game of choice.  I've recently been playing Hogwarts Legacy and Fallout 3/New Vegas, with some Civilization 5 sprinkled on the side.  Outside of video games, I am a world-builder and crafted an entire fantasy world called Zaonus (mostly) from scratch to be the Game Master for a Dungeons and Dragons campaign.  I am also writing a short novel set in this world to try my hand at creative writing.  I have extensive notes about this world including nations, factions, governments, people, shops, towns, regions, religions, a Pantheon of Gods Goddesses and Titans, Planes of Existance, and even its own unique calendar.  
+        </p>
+
+    <h2>Intro to CSS</h2>
+
+        <p>
+            In this class, we will be learning about CSS, or Cascading Style Sheets, which is the language used to control the visual presentation of content written in markup languages such as HTML and Markdown. While markup languages define the structure and meaning of content, CSS works alongside them to determine how that content is displayed to the user. CSS allows developers to create reusable style rules, often referred to as classes, that can be applied to multiple elements within a document to ensure consistency and simplify maintenance. For example, HTML and Markdown both support headers as a way to organize content, with HTML using tags such as &lt;h1&gt; &lt;/h1&gt; and Markdown using the # symbol. With CSS, we can define exactly how each of those headers will appear on a page, including properties such as font family, font size, color, spacing, and whether text appears bold, underlined, or italicized, giving developers precise control over the look and feel of a website.
+        </p>
+        
+        <hr />
+    <address>
+        <p>
+            <a href=https://www.bellevue.edu/>Bellevue University</a>
+            <br>1000 Bruin Blvd
+            <br>Bellevue, NE 68005
+        </p>
+    </address>
+    </div>
+</body>
+
+</html>
