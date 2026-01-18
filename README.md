@@ -241,9 +241,9 @@ To be clear, the outcome of this assignment is a landing page for your csd-340 G
         - Example: Johann Bach's CSD 340 Landing Page
     - Add a link to site.css file in the HTML documents head element
     - Add a main div to the body of the HTML document with an id of container
-    - # container
+    - \# container
         - Add an h1 tag and give it a text value of
-        -\<your first name\> \<your last name\>
+        - \<your first name\> \<your last name\>
         - CSD 340 Landing Page
             - Example: Johann Bach's CSD 340 Landing Page
         - Add an h2 tag and give it a text value of "CSD 340 Web Development with HTML and CSS"
