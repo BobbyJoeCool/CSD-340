@@ -2,7 +2,7 @@
 
 ## Week One
 **Monday, January 12, 2026 to Sunday January 18, 2026**
-### Module One
+### Module One: Introduction to GitHub and HTML
 During this module, you will be setting up a GitHub repository for the course. You will also learn the basic structure of an HTML document, how to validate your HTML code, and how to document your code. As you work through this module’s reading assignment, please take notes! Most of what you learn over the next several chapters will set the foundation for future assignments.
 
 #### Deliverables
@@ -98,7 +98,7 @@ Resource Links:
 - \<your-last-name\>-\<assignment-name\>.docx (document containing the screenshots).
 
 
-### Module Two
+### Module Two: Introduction to CSS
 During this module, you will learn how to create links between HTML pages and CSS pages, how to link to other websites, how to apply CSS definitions to a web page, how to add a footer, and how to change displays based on mouse movement.
 
 #### Deliverables
@@ -189,7 +189,7 @@ For this module’s assignment, you will be expanding on what you learned in Cha
 
 **Monday, January 19th through Sunday January 25th**
 
-### Module Three
+### Module Three: Color, Text, and Boxes
 
 During this module, you will be learning how to control the size of boxes and how to apply borders, margins, and padding to boxes. Please take notes as you work through this week’s reading assignments.
 
