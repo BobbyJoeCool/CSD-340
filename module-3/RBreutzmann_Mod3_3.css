@@ -1,0 +1,63 @@
+/*
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 3.2
+    Due Date: January 25th, 2026
+*/
+
+h1 {
+    text-align:center;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 45%
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol, ul {
+    font-weight: 300;
+}
+
+.column-books {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+
+.column-learned {
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+ul {
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 60px; 
+        /* You said 60%, but that made the link WAY too low, 
+        so I think you meant 60px? */
+    margin-bottom: 20px;
+    text-align: right;
+        /* You said float: right, but that doesn't move the text over
+        when the width is 100%, so I think it's supposed to be text-align:right */
+}
