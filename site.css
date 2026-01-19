@@ -1,0 +1,32 @@
+/*
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 3.2
+    Due Date: January 25th, 2026
+*/
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1,h2,h3,h4 {
+    background-color: #4F3674; /* Bellevue University Purple */
+    color: #D6A800;
+    border: 1px solid #D6A800; /* Bellevue University Gold */
+    padding: 10px;
+}
+
+a {
+    color: #D6A800; /* Bellevue University Gold */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B38F00;
+}
+
+a:visited {
+    color: #3B2A59;
+}
