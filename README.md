@@ -343,3 +343,82 @@ CSS Lists: [w3school](https://www.w3schools.com/css/css_list.asp)
 **Deliverables**
 - URL to your repositories GitHub Landing pages website
 - module-3 packaged as a .zip file
+
+## Week Three
+
+### Module Four: Tables, Layouts and Images
+
+In this module, you will be learning how to specify bullet point styles, adding borders and backgrounds to tables, changing the appearance of form elements, how to control the position of elements, and how to create site layouts.
+
+#### Deliverables
+
+- Module 4.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 4.2 Assignment: Build a Web Page Exercise, Part 4 - Due by Sunday 11:59 p.m., CST.
+
+#### Readings and Videos
+
+- Atomic Design, B. Frost, 2016 [Chapter 2](https://atomicdesign.bradfrost.com/chapter-2/)
+- HTML & CSS - Chapters 14, 15, and 16
+- 100 Things - Numbers 29 - 36
+
+#### Discussion Board
+
+Using the ***100 Things Every Designer Should Know About People*** reading assignment, select two (2) of the "things" you read about, include the number and title of the "thing" (i.e. #36 Time is Relative), and then do two embellishments, one embellishment and one visual example, or two visual examples.
+
+- **Embellish:** Tell us something that the reading did not tell us on that specific "thing" or embellish on what was presented. Be sure you are adding meaningful content to the conversation and not just making noise. Your addition can be a link to an article, or you can write out your embellishment.
+- **Visual Example:** Provide us with a graphic example that is relevant to web design. This can be something you create or something you find. Again, be sure to add meaningful content to the conversation.
+
+#### Assignments
+
+##### Assignment 4.2: build a Webpage Exercise, Part 4
+
+In this assignment you will be learning how to apply palette colors to web pages, how to display images in a gallery, and how to apply font colors to HTML elements.
+
+**Repository and Resource Links:**
+
+- [HTML img](https://www.w3schools.com/tags/tag_img.asp)
+- [Figure caption](https://www.w3schools.com/tags/tag_figcaption.asp)
+- [RGBA](https://www.w3schools.com/cssref/func_rgb.php)
+- [CSS Grids](https://www.w3schools.com/css/css_grid.asp)
+
+**Instructions**
+
+- Create a new folder under your local csd-340 folder (repository) and name it module-4
+    - Create a new HTML document and name it LastName_Mod4_2.html, add your name and assignment number (documentation), and add it to your module-4 directory
+        - All HTML code will go in this file
+    - Create a new CSS document and name it LastName_Mod4_2.css, and add it to your module-4 directory
+        - All CSS styling will go in this file
+    - Create a new folder and name it “images” and add it to your module-4 directory
+    - Find or create an image of three(3) book covers from your list from last week. Save the images in your "images" folder.
+    - Add a link in the index.html file to the HTML file
+        - Hint: refer back to assignment 3.2 if you are confused about what this item is referencing
+    - Contents of LastName_Mod4_2.html
+        - Create an empty HTML document (follow the code we used in Module 3)
+        - Give the HTML document a title of “CSD 340 Web Development with HTML and CSS”
+            - This will be placed in the head/title element
+        - Add a link to LastName_Mod4_2.css file in the HTML documents element
+        - Add a main div to the body of the HTML document with an id of “container”
+        - Main div
+            - Add an h1 tag and give it a text value of “Assignment 4.2: Build a Web Page Exercise - Part 4”
+                - Center the text on the page
+            - On a new line add a new div and give it an id of “image-gallery”
+            - Inside the image-gallery div add three side-by-side divs using CSS grids (see the resources section for assistance). Each of these divs will contain a title, image, and captions.
+        - 3 side-by-side divs
+            - Inside each div add an h3 element with a description of the image you are using in that div
+            - Under each div add a figure tag and inside the figure tag add one of the downloaded images (one figure per div, one image per figure)
+            - Underneath each figure add a figure caption with the author's name using the format: (author: )
+            - Underneath the picture gallery, add a link back to the landing/portal page in the same position as 3.3.
+        - Contents of LastName_Mod4_2.css
+            - Apply a CSS grid with three columns for the 3 side-by-side divs (see the above resources section for help/assistance)
+            - Give the image-gallery div a margin-top of 10%
+            - Center the h1 text
+            - Center the h3 text (title for each of the image gallery items)
+            - Apply text-align center to the figure tag (this will basically center the image in the div)
+            - Apply a font style of italic to the figcaption text and set the font-size to .75em
+            - Using rgba, add a different color to the h1, h3, and figcaption tags. optional.
+
+**Deliverables**
+
+- URL to your repositories GitHub pages website
+- module-4 packaged as a .zip file
