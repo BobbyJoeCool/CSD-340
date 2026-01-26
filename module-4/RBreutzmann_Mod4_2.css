@@ -1,12 +1,8 @@
 /*
-- Contents of LastName_Mod4_2.css 
-- Apply a CSS grid with three columns for the 3 side-by-side divs (see the above resources section for help/assistance) 
-- Give the image-gallery div a margin-top of 10% 
-- Center the h1 text 
-- Center the h3 text (title for each of the image gallery items) 
-- Apply text-align center to the figure tag (this will basically center the image in the div) 
-- Apply a font style of italic to the figcaption text and set the font-size to .75em 
-- Using rgba,add a different color to the h1, h3, and figcaption tags. optional.
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 3.2
+    Due Date: January 25th, 2026
 */
 
 #image-gallery {
