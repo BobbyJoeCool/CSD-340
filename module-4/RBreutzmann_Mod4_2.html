@@ -1,0 +1,73 @@
+<!--
+    - Contents of LastName_Mod4_2.html
+        - Give the HTML document a title of “CSD 340 Web Development with HTML and CSS”
+            - This will be placed in the head/title element
+        - Add a link to LastName_Mod4_2.css file in the HTML documents element
+        - Add a main div to the body of the HTML document with an id of “container”
+        - Main div
+            - Add an h1 tag and give it a text value of “Assignment 4.2: Build a Web Page Exercise - Part 4”
+                - Center the text on the page
+            - On a new line add a new div and give it an id of “image-gallery”
+            - Inside the image-gallery div add three side-by-side divs using CSS grids (see the resources section for assistance). Each of these divs will contain a title, image, and captions.
+        - 3 side-by-side divs
+            - Inside each div add an h3 element with a description of the image you are using in that div
+            - Under each div add a figure tag and inside the figure tag add one of the downloaded images (one figure per div, one image per figure)
+            - Underneath each figure add a figure caption with the author's name using the format: (author: )
+            - Underneath the picture gallery, add a link back to the landing/portal page in the same position as 3.3.
+-->
+
+<!--
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 4.2
+    Due Date: February 1, 2026
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="RBreutzmann_Mod4_2.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Assignment 4.2: Build a Web Page Exercise - Part 4</h1>
+        <div id="image-gallery">
+            <div class="column">
+                <h3>The Lord of the Rings</h3>
+
+                <figure>
+                    <img src="images/LotR.jpg" alt="Lord of the Rings Book Cover">
+                    <figcaption>(author: J.R.R. Tolkein)</figcaption>
+                </figure>
+            </div>
+
+            <div class="column">
+                <h3>Divergent</h3>
+            
+                <figure>
+                    <img src="images/Divergent.jpg" alt="Divergent Book Cover">
+                    <figcaption>(author: Veronica Roth)</figcaption>
+                </figure>
+            </div>
+
+            <div class="column">
+                <h3>1984</h3>
+            
+                <figure>
+                    <img src="images/1984.jpg" alt="1984 Book Cover">
+                    <figcaption>(author: George Orwell)</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="../index.html">Landing Page</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
