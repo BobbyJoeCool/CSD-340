@@ -346,6 +346,8 @@ CSS Lists: [w3school](https://www.w3schools.com/css/css_list.asp)
 
 ## Week Three
 
+**Monday, January 26th through Sunday, February 1st**
+
 ### Module Four: Tables, Layouts and Images
 
 In this module, you will be learning how to specify bullet point styles, adding borders and backgrounds to tables, changing the appearance of form elements, how to control the position of elements, and how to create site layouts.
@@ -422,3 +424,105 @@ In this assignment you will be learning how to apply palette colors to web pages
 
 - URL to your repositories GitHub pages website
 - module-4 packaged as a .zip file
+
+## Week Four
+
+**Monday, February 2nd through Sunday, February 8th**
+
+### Module Five: bioSite Introduction
+
+In this module, you will be starting the development of your small bioSite project, including background narrative, style guides, and gathering images.
+
+#### Deliverables
+
+- Module 5.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 5.2 Assignment: bioSite: Ideas, Sketches, and Inspiration - Due by Sunday 11:59 p.m., CST.
+
+#### Readings and Video
+
+- Atomic Design, B. Frost, 2016
+    - [Chapter 3](https://atomicdesign.bradfrost.com/chapter-3/)
+- HTML & CSS - Chapter 17
+- 100 Things - Numbers 37-44
+- [From pages to Patterns: An Exercise for Everyone](https://alistapart.com/article/from-pages-to-patterns-an-exercise-for-everyone/)
+
+#### Discussion Board
+
+Using the ***100 Things Every Designer Should Know About People*** reading assignment, select two (2) of the "things" you read about, include the number and title of the "thing" (i.e. #36 Time is Relative), and then do two embellishments, one embellishment and one visual example, or two visual examples.
+
+- **Embellish:** Tell us something that the reading did not tell us on that specific "thing" or embellish on what was presented. Be sure you are adding meaningful content to the conversation and not just making noise. Your addition can be a link to an article, or you can write out your embellishment.
+- **Visual Example:** Provide us with a graphic example that is relevant to web design. This can be something you create or something you find. Again, be sure to add meaningful content to the conversation.
+
+#### Assignment
+
+##### Assignment 5.2: bioSite: Ideas, Sketches, and Inspiration
+
+Welcome to the bioSite project. The bioSite project will run throughout the remaining modules in this course, with a final submission and critique due by the end of Module 9. This project will allow you to apply the theories, methods, and principles you have learned throughout the course. The software we will be using is free. If you have an Adobe CC subscription, you can use some of the wonderful tools they have to offer.
+
+For this module, you are to start collecting/creating elements and you'll need to code the site. You have a few weeks to work on this, so don't try to create the entire site all at once.
+
+**Resource Links:**
+
+- [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+- [Front-end Style Guides](https://24ways.org/2011/front-end-style-guides/)
+- [Style Guide Example](https://paulrobertlloyd.com/styleguide/)
+
+1) ###### The Problem
+
+    Design a simple website that tells us about someone you know. Your goal is to tell someone's story. This person can be a family member, a friend, a colleague, etc. You have to know them and have access to them. They need to be a person (no pets). And you should avoid babies, as the story is rather short and one-dimensional. You'll also need images of them, preferably current photos and not something yanked off Facebook. During this project, you will also be developing a pattern library (style guide) for this site. You’ll apply the concepts of Atomic Design and use the pattern library to construct your actual website.
+
+    &nbsp;
+
+    Your site must include: the person's name, images (minimum of seven images), type (minimum of 250 words), color, have a solid composition, have a good use of space, a focused message, and be effective, and have at least one link to an existing external website. Do not use any information that you deem personal. Do not include their address, phone numbers, social security number, or anything else you wouldn't put on a flier (or a website) and hand out to total strangers. You'll do some copywriting for this project, so you may need to interview the person. Take some photos while you're at it, too.
+
+    &nbsp;
+
+    Start the project by gaining a greater understanding of your subject. Do some research. This should include interviewing the individual and others who know the individual. Look into different aspects of their life. For example, if your subject is an avid skydiver, learn a little about skydiving so you understand them better.
+
+    &nbsp;
+
+    Using what you’ve learned, generate sketches that explore possible visual directions for your site to take. Start with general layout ideas and refine as you go. Always start with paper and pencil. If you wish, you can then explore ideas with tools such as Sketch or Adobe XD.
+
+    &nbsp;
+
+    During this process, you may find gathering inspiration helpful. Looking at colors, textures, fonts, etc., can also generate ideas. Always keep your subject in mind during this initial design process. You are designing about/for them - not for yourself.
+
+    &nbsp;
+
+    bioSite minimum page requirements:
+
+    - Landing page
+    - About page
+    - Hobbies page
+
+1) ###### Sumbission Minimums
+    - Front-end Style Guide
+        - Selected Color palette
+        - Note: You will need to create your own style guide from the examples provided under the “Resources” section.
+    - Wireframes, sketches, or prototypes
+        - Note: The deliverables here are wireframes, sketches, and/or prototypes of the proposed design. Outcomes from this task will be compared against the final submission and they must match.
+    - At least one completed interview of the subject (the document must contain a minimum of 10 interview questions and responses from the subject).
+    - One page (minimum 250 words) document containing a short bio of the subject
+        - This is a formalized write-up of the subject and will be used in the final project
+        - This should be the outcomes from the interview and research you conducted on the subject and their hobbies
+        - This will be added to the About page, in a later module.
+    - The images you intend to use in the final project
+        - 3 Images should be related to the subject's hobbies
+            - This will go under the hobby page, in a later module, and should include a small write-up explaining their relevance. Remember, you are trying to build a story/timeline for visitors to follow
+        - 3 images should be related to the subject’s goals, personal accomplishments, or embellishments
+            - These will go on the landing page, in a later module, and should include a small write-up explaining their relevance. Remember, you are trying to build a story/timeline for visitors to follow
+        - 1 image should be a portrait of the subject
+            - This image will be added to the About page, in a later module, above the formalized 250-word write-up
+
+    Note: The goal of this assignment is to prepare everything you need for the project to be completed. This will allow us to focus exclusively on the development of the bioSite project.
+
+1) ###### Deliverables
+    Present your work for this module as a single pdf (multiple pages).
+
+**Assignment Requirements and Grading:**
+
+- This assignment is due by Sunday, 11:59 p.m. CST.
+- Assignment documents (.pdf, .docx, etc.) should include your name, date, and assignment number as the first thing viewed when the file is opened.
+- Submit your assignment by clicking in the Module Assignment found in the Contents list in the upper left in this window, then use the Attach Files icon from the toolbar (the paperclip). Select your assignment file, add any comments as appropriate, and then click on Submit.
+- Review the Grading Rubric for further guidance.
