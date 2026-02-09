@@ -526,3 +526,177 @@ For this module, you are to start collecting/creating elements and you'll need t
 - Assignment documents (.pdf, .docx, etc.) should include your name, date, and assignment number as the first thing viewed when the file is opened.
 - Submit your assignment by clicking in the Module Assignment found in the Contents list in the upper left in this window, then use the Attach Files icon from the toolbar (the paperclip). Select your assignment file, add any comments as appropriate, and then click on Submit.
 - Review the Grading Rubric for further guidance.
+
+## Week Five
+
+**Monday, February 9th through Sunday, February 15th**
+
+### Module Six: Resueable CSS
+
+In this module, you will continue the development of the bioSite project and learn how to build reusable CSS classes.
+
+#### Deliverables
+- Module 6.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 6.2 Assignment: Building a Web Page Exercise, Part 5 - Due by Sunday 11:59 p.m., CST.
+- Module 6.3 Assignment: bioSite: Development - Due by Sunday 11:59 p.m., CST.
+
+#### Readings and Videos
+
+- Atomic Design, B. Frost, 2016 [Chapter 4](https://atomicdesign.bradfrost.com/chapter-4/)
+- HTML & CSS - Chapter 17
+- 100 Things - Numbers 45-52
+
+#### Discussion Board
+
+Using the ***100 Things Every Designer Should Know About People*** reading assignment, select two (2) of the "things" you read about, include the number and title of the "thing" (i.e. #36 Time is Relative), and then do two embellishments, one embellishment and one visual example, or two visual examples.
+
+- **Embellish:** Tell us something that the reading did not tell us on that specific "thing" or embellish on what was presented. Be sure you are adding meaningful content to the conversation and not just making noise. Your addition can be a link to an article, or you can write out your embellishment.
+- **Visual Example:** Provide us with a graphic example that is relevant to web design. This can be something you create or something you find. Again, be sure to add meaningful content to the conversation.
+
+#### Assignments
+
+##### Assignment 6.2: Build a Webpage, Part 5
+For this assignment, you will be learning how to create web page layouts. The color choices are up to you...having a pre-selected palette helps.
+
+**Resource Links:
+**
+- [Page Layouts](https://www.w3schools.com/html/html_layout.asp)
+- [Box Shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
+- [HTML Header](https://www.w3schools.com/css/css_website_layout.asp)
+- [HTML Symbols](https://www.w3schools.com/html/html_symbols.asp)
+- [Fixed Footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)
+- [document.write](https://www.w3schools.com/jsref/met_doc_write.asp)
+- [document.write date](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_doc_write3)
+- [CSS Card](https://www.w3schools.com/howto/howto_css_cards.asp)
+
+**Assignment Instructions**
+- Create a new folder under your local csd-340 folder (repository) and name it module-6
+- Create a new HTML document and name it LastName_Mod6_2.html, add your name and assignment number (documentation), and add it to your module-6 directory
+    - All HTML code will go in this file
+- Create a new CSS document and name it LastName_Mod6_2.css, and add it to your module-6 directory
+    - All CSS styling will go in this file
+- Add a link in the index.html file to the new 6.2 HTML file
+    - Hint: refer back to assignment 4.2 if you are confused about what this item is referencing
+- Contents of LastName_Mod6_2.html
+    - Create an empty HTML document (follow the code we used in Module 1)
+    - Give the HTML document a title of “CSD 340 Web Development with HTML and CSS”
+    - This will be placed in the head/title element
+    - Add a link to LastName_Mod6_2.css file in the HTML documents element
+    - Add an HTML header tag
+    - Underneath the header tag add a new div with an id of “navbar”
+    - Underneath the navbar div add a new div and give it an id of “container”
+    - Underneath the “container” div and add an HTML footer element
+    - header element
+        - Add an h1 tag with a text value of “Assignment 6.2: Build a Web Page - Part 5”
+    - navbar div
+        - Add three anchor tags with an href of # and text values of Home, About, and Contact
+    - container div
+        - Add a new div with a class of card
+        - Inside the card div add a new div with a class of card-title
+        - Give the card-title a value of “Top 5 Favorite Foods”.
+        - Inside the card div add a new div with a class of card-content (underneath the card-title div)
+            - Create an ordered list of your top 5 favorite foods. Each item should contain a hyperlink to a recipe for the food listed. Each link should open in a separate tab or window.
+    - footer element
+        - Underneath the list, add a link back to the portal page.
+        - Select an appropriate color.
+        - Set the weight to 400
+        - Float the text to the right
+        - Give it a right padding of 10px
+        - Set the font-style to italic
+- Contents of LastName_Mod6_2.css
+    - header element
+        - Select an appropriate background color
+        - Set the text color to white
+        - Give the element a padding of 20px
+        - Center the text
+    - h1
+        - Set the weight to 400
+    - navbar
+        - Set the overflow to hidden
+        - Select an appropriate background color
+        - Set the bottom border to a solid 15px with an appropriate color
+    - navbar a
+        - Float the text to the left
+        - Set the display to block
+        - Set the color to white, or another appropriate color
+        - Center the text
+        - Give it a padding of “14px 16px”
+        - Remove the underline
+    - navbar a:hover
+        - Select an appropriate background color
+        - Set color to an appropriate color
+        - container div
+        - Set the top margin to 2%
+        - Set the left margin to 5%
+        - Set the right margin to 5%
+        - Give the container a padding of 10px
+    - card
+        - Set the box shadow to 0 4px 8px 0 and an rgba(0, 0, 0, 0.2)
+        - Set the transition to 0.3s
+        - Set the width to 50%
+    - card-title
+        - Center the text
+        - Set the font-size to 2em
+        - Select an appropriate color
+        - Set the weight to 400
+    - card-content
+        - Set the padding to “2px 16px”
+    - When users hover over the card set the box shadow to 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+    - footer element
+        - Set the background color to the same color as your header
+        - Set the position to absolute
+        - Set the bottom to 0
+        - Give it a width of 100%
+    - footer p
+        - Set the color to white, or another appropriate color
+        - Set the weight to 400
+        - Float the text to the right
+        - Give it a right padding of 10px
+        - Set the font-style to italic
+    - footer a
+        - Remove the underline
+        - Set the color to white, or another appropriate color
+    - footer a:hover
+        - Underline the text
+
+**Deliverables**
+- URL to your repositories GitHub pages website
+- module-6 directory packaged as a .zip file
+
+##### Assignment 6.3: bioSite: Development
+
+Using the outcomes from Assignment 5.2, start to build patterns. Start the “atom” level first, and then move to the “molecule” level. Consider every possible element of your site. Atomic level considerations: colors, fonts, headings, inline elements, paragraph styling, images (size, captions, etc.), type scale, font weights, line-heights, line-lengths, letter-spacing, etc.
+
+**Assignment Details**
+1) GitHub and Local Directory Setup
+    - GitHub setup
+        - Create a new repository and name it bioSite
+        - Enter a description
+        - Mark the repository public and “Initialize this repository with a README file”
+        - Create repository
+    - Local directory setup
+        - Open a new terminal window (cmd for windows/terminal for macOS) and navigate to your “csd” directory
+        - Sign in to GitHub (if not already)
+        - Select the “code” button and copy the URL
+        - In the terminal window, verify you are in the correct directory (csd) and type
+            - git clone
+        - Verify the repository was cloned by typing
+            - Windows: dir
+            - macOS: ls
+1) Modify README.md
+    - Add an h1 header with the title of “CSD 340 Web Development with HTML and CSS”
+    - Add an h2 header with the title “Contributors”
+    - Underneath the h2 header, add two bullet points, one for your Instructor's name and one for your first and last name
+1) Project Development
+    - Begin the development of your bioSite project
+    - At minimum this week’s deliverable must include
+        - 3 validated HTML pages (index.html (also known as "landing page"), about page, and hobbies page)
+            - Each page should have their basic layout created (h1, h2, h3 tags, divs, etc.,)
+        - 1 CSS file linked in all three HTML pages
+
+Note: The HTML and CSS pages must be valid HTML/CSS using W3C’s validator and the three HTML pages must have a basic layout defined. Empty HTML pages will not be awarded points.
+
+**Deliverables**
+- Link to your bioSite repository
+- bioSite project packaged in a .zip file Must include at least 3 HTML pages and 1 CSS file
