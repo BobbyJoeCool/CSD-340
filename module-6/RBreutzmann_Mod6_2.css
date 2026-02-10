@@ -1,0 +1,98 @@
+/*
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 6.2
+    Due Date: February 15th, 2026
+*/
+
+header {
+    background-color: #4F3674; /* Bellevue University Purple */
+    color: #FFFFFF;
+    border: 1px solid #D6A800; /* Bellevue University Gold */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #D6A800; 
+    border-bottom: 15px solid #4F3674; 
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #4F3674; 
+    color: #D6A800; 
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.note {
+    font-size: .95em;
+    color: #888888;
+}
+/* I added notes to a couple of the recipes to the list items. */ 
+
+footer {
+    background-color: #4F3674;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

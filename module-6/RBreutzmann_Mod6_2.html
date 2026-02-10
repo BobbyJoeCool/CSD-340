@@ -1,0 +1,64 @@
+<!--
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 6.2
+    Due Date: February 15th, 2026
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+    My IDE wants these first two lines in.
+    The first tells the browser what character set to use.
+    The second controls how the page will scale on different size screens.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RBreutzmann_Mod6_2.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+    <header>
+        <h1>Assignment 6.2: Build a Web Page - Part 5</h1>
+    </header>
+
+    <div id="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div id="container">
+        <div class="card">
+            <div class="card-title">Top 5 Favorite Foods</div>
+
+            <div class="card-content">
+                <ol>
+<!--My IDE was yelling at me to add rel="noopener" to the code here as a security precaution.  This prevents the new window from tracking where it came from.-->
+                    <li><a href="https://www.simplyrecipes.com/recipes/lasagna/" target="_blank" rel="noopener">Spaghetti Flavored Cake (Lasagna)</a></li>
+                    <li><a href="https://www.simplyrecipes.com/recipes/chicken_parmesan/" target="_blank" rel="noopener">Chicken Parmesan</a></li>
+                    <li>
+                        <a href="https://www.simplyrecipes.com/recipes/ground_beef_chili/" target="_blank" rel="noopener">Chili</a>
+                        <div class="note">This is not the recipe I would use, We make our own chili base and can it with tomatoes from our garden, then add ground beef, Chili, Pinto, Kidney, and Black Beans, and corn.</div>
+                        <!--I added a note to a couple of the recipes.-->
+                    </li>
+                    <li>
+                        <a href="https://www.simplyrecipes.com/marzipan-recipe-5295688" target="_blank" rel="noopener">Marzipan</a>
+                        <div class="note">After making the Marzipan, you can divide it up, color it with food coloring, and shape it into fruits and veggies.  My family did this every year at Thanksgiving and handed them out for Christmas to celebrate our German heritage.</div>
+                    </li>
+                    <li><a href="https://www.simplyrecipes.com/recipes/slow_cooker_chinese_pulled_pork/" target="_blank" rel="noopener">Pulled Pork</a></li>
+                </ol>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer> 
+        <p><a href="../index.html">Landing Page</a></p>
+    </footer>
+</body>
+
+</html>
