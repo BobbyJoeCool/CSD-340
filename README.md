@@ -700,3 +700,133 @@ Note: The HTML and CSS pages must be valid HTML/CSS using W3C’s validator and 
 **Deliverables**
 - Link to your bioSite repository
 - bioSite project packaged in a .zip file Must include at least 3 HTML pages and 1 CSS file
+
+## Week Six
+
+**Monday, February 16th through Sunday, February 22nd**
+
+### Module Seven: bioSite Web Deplolyment
+In this module, you will be learning how to approach building a site, how to understand your audience and their needs, and how to present information visitors want to see.
+
+#### Deliverables
+- Module 7.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 7.2 Assignment: bioSite: Development and GitHub Pages Deployment - Due by Sunday 11:59 p.m., CST.
+
+#### Readings and Videos
+- Atomic Design, B. Frost, 2016
+    - [Chapter 4](https://atomicdesign.bradfrost.com/chapter-4/)
+- HTML & CSS - Chapter 18
+- 100 Things - Numbers 53-60
+
+#### Discussion Board
+
+Using the ***100 Things Every Designer Should Know About People*** reading assignment, select two (2) of the "things" you read about, include the number and title of the "thing" (i.e. #36 Time is Relative), and then do two embellishments, one embellishment and one visual example, or two visual examples.
+
+- **Embellish:** Tell us something that the reading did not tell us on that specific "thing" or embellish on what was presented. Be sure you are adding meaningful content to the conversation and not just making noise. Your addition can be a link to an article, or you can write out your embellishment.
+- **Visual Example:** Provide us with a graphic example that is relevant to web design. This can be something you create or something you find. Again, be sure to add meaningful content to the conversation.
+
+#### Assignments
+
+##### Assignment 7.2: bioSite: Development and GitHub Pages Deployment
+
+Continue to build on the patterns you crafted in the previous week. Form “organisms” from your molecules and a template from your organisms. Remember, you are building actual HTML/CSS patterns that will be used in your site - this is not a static mockup.
+
+Organisms you need to include: header, images with captions, footer, main content section, and your external link. You should have a complete template of your site by the end of the week.
+
+At this point, the main HTML page should contain base styling, a header, a footer, a main content section, embedded images, and navigation.
+
+1. Instructions:
+    - Configure the bioSite repository landing page to use GitHub Pages
+    - Refer to the “GitHub Pages Guide” for assistance
+    - The bioSite project must be viewable as a website on GitHub pages
+    - Project development
+    - Continue to build the bioSite project by adding base CSS styling, a header, a footer, a main content section, the images you selected, and site navigation
+    - This applies to all three pages (landing page, contact page, hobbies page)
+2. Deliverables:
+    - URL to your bioSite repositories GitHub pages website
+    - bioSite project packaged in a .zip file.  
+
+**IMPORTANT NOTE TO STUDENTS: Any bioSites that have not been deployed/viewable on GitHub pages will not be graded. This means I will physically navigate to <https://yourAccountName.github.io/bioSite/> to verify the website is running. If I receive a 404 error, you will not receive credit for this assignment.**
+
+### Module Eight: Advanced HTML
+
+In this module, you will be learning how to leverage the advanced features in HTML and CSS to build robust websites.
+
+#### Deliverables
+- Module 8.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 8.2 Assignment: Build a Web Page Exercise, Part 6 - Due by Sunday 11:59 p.m., CST.
+
+#### Readings and Video
+- HTML & CSS - Chapter 19
+- 100 Things - Numbers 61-68
+
+#### Discussion Board
+
+Using the ***100 Things Every Designer Should Know About People*** reading assignment, select two (2) of the "things" you read about, include the number and title of the "thing" (i.e. #36 Time is Relative), and then do two embellishments, one embellishment and one visual example, or two visual examples.
+
+- **Embellish:** Tell us something that the reading did not tell us on that specific "thing" or embellish on what was presented. Be sure you are adding meaningful content to the conversation and not just making noise. Your addition can be a link to an article, or you can write out your embellishment.
+- **Visual Example:** Provide us with a graphic example that is relevant to web design. This can be something you create or something you find. Again, be sure to add meaningful content to the conversation.
+
+#### Assignments
+
+##### Assignment 8.2: Build a Webpage Exercise, Part 6
+
+For this assignment, you will be learning how to create and style HTML tables.
+
+**Resource Links:**
+- [CSS Forms](https://www.w3schools.com/css/css_form.asp)
+- [CSS Buttons](https://www.w3schools.com/css/css3_buttons.asp)
+- [HTML Forms](https://www.w3schools.com/html/html_forms.asp)
+- [CSS Tables](https://www.w3schools.com/css/css_table.asp)
+- [Fixed Footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)
+- [HTML Line Breaks](https://www.w3schools.com/tags/tag_br.asp)
+
+**Assignment Instructions**
+
+- Create a new folder under your local csd-340 folder (repository) and name it module-8
+- Make a copy of LastName_Mod6_2.html and add it to your module-8 directory. Rename the file to LastName_Mod8_2.html.
+- Make a copy of LastName_Mod6_2.css and add it to your module-8 directory. Rename the file to LastName_Mod8_2.css.
+- Copy the card, card-title, card-content classes from LastName_Mod6_2.css to this file
+- Add a link in the index.html file to the current HTML file
+    - Hint: Refer back to assignment 4.2 if you are confused on what this item is referencing
+- Contents of LastName_Mod8_2.html
+    - Add a link to LastName_Mod8_2.css file in the HTML documents element
+    - Make sure HTML page title says “CSD 340 Web Development with HTML and CSS”
+    - Rename the h1 text value to “Assignment 8.2: Build a Web Page - Part 6”
+    - Add a new card, card-title, and card-content divs above the Favorite Foods list div
+        - Hint: Use a main div for the card class, then two nested divs for card-title and card-content. You are basically following the same format you used in the Foods listing.
+        - Give the card title a value of “Top 5 Favorite Movies”
+        - In the card content, create a table with two columns. First column has a header of "Movie Name", second column has a header of "Two Characters".
+        - In the second column for each movie, create an unordered list of two characters from the movie listed in column one.
+    - Add two HTML line breaks between the two cards
+    - The second card div can be copied from the last assignment for favorite foods.
+    - Modify the footer to add a copyright year and your last name aligned to the left.
+- Contents of LastName_Mod8_2.css
+    - Add the following to last week's .css file
+    - \# movies
+        - Set the border-collapse to collapse
+        - Set the width to 100%
+        - Set the bottom margin to 30px
+    - For the movies th
+        - Set the top padding to 12px
+        - Set the bottom padding to 12px
+        - Align the text to the left
+    - For the movies td
+        - Set the border to 1px solid with a color of #ddd
+        - Set the padding to 8px
+    - footer
+        - Set the position to fixed (it was absolute)
+        - Set the left to 0
+    - container div
+        - Use shorthand to set the margin to
+            - 2 % top
+            - 5% left
+            - 5% right
+            - 100px bottom
+
+**Deliverables**
+
+- URL to your repositories GitHub pages website
+- module-8 directory packaged as a .zip file
