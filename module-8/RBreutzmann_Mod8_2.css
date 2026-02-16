@@ -1,0 +1,31 @@
+/*
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 3.2
+    Due Date: January 25th, 2026
+*/
+
+/*
+- Contents of LastName_Mod8_2.css
+    - Add the following to last week's .css file
+    - \# movies
+        - Set the border-collapse to collapse
+        - Set the width to 100%
+        - Set the bottom margin to 30px
+    - For the movies th
+        - Set the top padding to 12px
+        - Set the bottom padding to 12px
+        - Align the text to the left
+    - For the movies td
+        - Set the border to 1px solid with a color of #ddd
+        - Set the padding to 8px
+    - footer
+        - Set the position to fixed (it was absolute)
+        - Set the left to 0
+    - container div
+        - Use shorthand to set the margin to
+            - 2 % top
+            - 5% left
+            - 5% right
+            - 100px bottom
+*/
