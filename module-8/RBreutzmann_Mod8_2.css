@@ -76,9 +76,9 @@ footer {
     background-color: #4F3674;
     position: fixed; /* Set to Fixed, was absolute */
     bottom: 0;
+    left: 0; /* Set the left to 0 */
     width: 100%;
     text-align: right;
-    margin-left: 0; /* Set the left to 0 */
     /* This part allows the elements of the footer to be aligned */
     display: flex;
     justify-content: space-between;
@@ -126,7 +126,6 @@ Set the padding to 8px
 footer p {
     color: #FFFFFF;
     font-weight: 400;
-    float: right;
     padding-right: 10px;
     font-style: italic;
     margin: 10px;
