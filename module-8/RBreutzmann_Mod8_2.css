@@ -5,27 +5,138 @@
     Due Date: January 25th, 2026
 */
 
-/*
-- Contents of LastName_Mod8_2.css
-    - Add the following to last week's .css file
-    - \# movies
-        - Set the border-collapse to collapse
-        - Set the width to 100%
-        - Set the bottom margin to 30px
-    - For the movies th
-        - Set the top padding to 12px
-        - Set the bottom padding to 12px
-        - Align the text to the left
-    - For the movies td
-        - Set the border to 1px solid with a color of #ddd
-        - Set the padding to 8px
-    - footer
-        - Set the position to fixed (it was absolute)
-        - Set the left to 0
-    - container div
-        - Use shorthand to set the margin to
-            - 2 % top
-            - 5% left
-            - 5% right
-            - 100px bottom
+header {
+    background-color: #4F3674;
+    /* Bellevue University Purple */
+    color: #FFFFFF;
+    border: 1px solid #D6A800;
+    /* Bellevue University Gold */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #D6A800;
+    border-bottom: 15px solid #4F3674;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #4F3674;
+    color: #D6A800;
+}
+
+#container {
+    margin: 2% 5% 100px 5%; /* Changed to Shorthand */
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.note {
+    font-size: .95em;
+    color: #888888;
+}
+
+/* I added notes to a couple of the recipes to the list items. */
+
+footer {
+    background-color: #4F3674;
+    position: fixed; /* Set to Fixed, was absolute */
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    margin-left: 0; /* Set the left to 0 */
+    /* This part allows the elements of the footer to be aligned */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* # movies
+- Set the border-collapse to collapse 
+- Set the width to 100% 
+- Set the bottom margin to 30px
 */
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* # movies th
+Set the top padding to 12px
+Set the bottom padding to 12px
+Align the text to the left
+*/
+
+#movies th {
+    padding: 12px 0;
+    text-align: left;
+}
+
+/* # movies td
+Set the border to 1px solid with a color of #ddd
+Set the padding to 8px
+*/
+
+#movies td {
+    border: #ddd 1px solid;
+    padding: 8px;
+}
+
+#foot_left {
+    font-size: 0.8em;
+    color: #999;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

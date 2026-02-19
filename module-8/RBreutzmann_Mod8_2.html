@@ -5,39 +5,152 @@
     Due Date: February 22nd, 2026
 -->
 
-<!--
-    - Create a new folder under your local csd-340 folder (repository) and name it module-8
-    - Make a copy of LastName_Mod6_2.html and add it to your module-8 directory. Rename the file to LastName_Mod8_2.html.
-    - Make a copy of LastName_Mod6_2.css and add it to your module-8 directory. Rename the file to LastName_Mod8_2.css.
-    - Copy the card, card-title, card-content classes from LastName_Mod6_2.css to this file
-    - Add a link in the index.html file to the current HTML file
-        - Hint: Refer back to assignment 4.2 if you are confused on what this item is referencing
-    - Contents of LastName_Mod8_2.html
-        - Add a link to LastName_Mod8_2.css file in the HTML documents element
-        - Make sure HTML page title says “CSD 340 Web Development with HTML and CSS”
-        - Rename the h1 text value to “Assignment 8.2: Build a Web Page - Part 6”
-        - Add a new card, card-title, and card-content divs above the Favorite Foods list div
-            - Hint: Use a main div for the card class, then two nested divs for card-title and card-content. You are basically following the same format you used in the Foods listing.
-            - Give the card title a value of “Top 5 Favorite Movies”
-            - In the card content, create a table with two columns. First column has a header of "Movie Name", second column has a header of "Two Characters".
-            - In the second column for each movie, create an unordered list of two characters from the movie listed in column one.
-        - Add two HTML line breaks between the two cards
-        - The second card div can be copied from the last assignment for favorite foods.
-        - Modify the footer to add a copyright year and your last name aligned to the left.
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="undefined.css">
-    <title>Title</title>
+    <link rel="stylesheet" href="RBreutzmann_Mod8_2.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
 </head>
 
 <body>
+    <header>
+        <h1>Assignment 8.2: Build a Web Page - Part 6</h1> <!--Rename the h1 text value to “Assignment 8.2: Build a Web Page - Part 6”-->
+    </header>
 
+    <div id="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div id="container">
+        <!--Add a new card, card-title, and card-content divs above the Favorite Foods list div-->
+        <div class="card">
+            <div class="card-title">Top 5 Favorite Movies</div> <!--Give the card title a value of “Top 5 Favorite Movies”-->
+
+            <div class="card-content">
+                <!--In the card content, create a table with two columns. First column has a header of "Movie Name", second column has a header of "Two Characters"-->
+                <table id="movies">
+                    <thead>
+                        <tr>
+                            <th>Movie Name</th>
+                            <th>Two Characters</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>The Lord of the Rings</td>
+                            <td>
+                                <ul> <!--In the second column for each movie, create an unordered list of two characters from the movie listed in column one-->
+                                    <li>Frodo Baggins</li>
+                                    <li>Gandalf the White</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>The Hunger Games</td>
+                            <td>
+                                <ul>
+                                    <li>Katniss Everdeen</li>
+                                    <li>Peeta Mellark</li>
+                                </ul>
+                            </td>               
+                        </tr>
+
+                        <tr>
+                            <td>Star Wars</td>
+                            <td>
+                                <ul>
+                                    <li>Luke Skywalker</li>
+                                    <li>Anakin Skywalker (Darth Vader)</li>
+                                </ul>
+                            </td>               
+                        </tr>
+
+                        <tr>
+                            <td>Divergent</td>
+                            <td>
+                                <ul>
+                                    <li>Tris</li>
+                                    <li>Four</li>
+                                </ul>
+                            </td>               
+                        </tr>
+
+                        <tr>
+                            <td>Avengers: Endgame</td>
+                            <td>
+                                <ul>
+                                    <li>Captain America (Steve Rogers)</li>
+                                    <li>Iron Man (Tony Stark)</li>
+                                    <li>Thor Odinson</li>
+                                </ul>
+                            </td>               
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <br><br> <!--Add two HTML line breaks between the two cards-->
+
+        <div class="card"> <!--The second card div can be copied from the last assignment for favorite foods-->
+            <div class="card-title">Top 5 Favorite Foods</div>
+
+            <div class="card-content">
+                <ol>
+                    <li><a href="https://www.simplyrecipes.com/recipes/lasagna/" target="_blank"
+                            rel="noopener">Spaghetti Flavored Cake (Lasagna)</a></li>
+                    <li><a href="https://www.simplyrecipes.com/recipes/chicken_parmesan/" target="_blank"
+                            rel="noopener">Chicken Parmesan</a></li>
+                    <li>
+                        <a href="https://www.simplyrecipes.com/recipes/ground_beef_chili/" target="_blank"
+                            rel="noopener">Chili</a>
+                        <div class="note">This is not the recipe I would use, We make our own chili base and can it with
+                            tomatoes from our garden, then add ground beef, Chili, Pinto, Kidney, and Black Beans, and
+                            corn.</div>
+                    </li>
+                    <li>
+                        <a href="https://www.simplyrecipes.com/marzipan-recipe-5295688" target="_blank"
+                            rel="noopener">Marzipan</a>
+                        <div class="note">After making the Marzipan, you can divide it up, color it with food coloring,
+                            and shape it into fruits and veggies. My family did this every year at Thanksgiving and
+                            handed them out for Christmas to celebrate our German heritage.</div>
+                    </li>
+                    <li><a href="https://www.simplyrecipes.com/recipes/slow_cooker_chinese_pulled_pork/" target="_blank"
+                            rel="noopener">Pulled Pork</a></li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <!--Modify the footer to add a copyright year and your last name aligned to the left-->
+        <div id="foot_left"> <!--I looked up the proper format for a copyright on a webpage and this is what came back-->
+            &copy; 2026, Breutzmann. All Rights Reserved.
+        </div>
+        <div id="foot_right">
+            <p><a href="../index.html">Landing Page</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>
+
+<!--Table Row Template
+    <tr>
+        <td></td>
+        <td>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+-->
