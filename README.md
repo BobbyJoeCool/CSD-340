@@ -830,3 +830,121 @@ For this assignment, you will be learning how to create and style HTML tables.
 
 - URL to your repositories GitHub pages website
 - module-8 directory packaged as a .zip file
+
+## Week Seven
+
+**Monday, February 23, 2026 to Sunday February 29, 2026**
+
+### Module Nine: bioSite Peer Review and Introduction to JavaScript
+
+In this module, you will prepare your bioSite solution for peer review. This module will also provide an introduction to JavaScript.
+
+#### Deliverables
+- Module 9.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 9.2 bioSite: Peer Review - Check due dates!
+- Module 9.3 Assignment: JavaScript Exercise Part 1 - Due by Sunday 11:59 p.m., CST.
+
+#### Reading and Video
+
+100 Things - Numbers 69 - 76
+Read the JavaScript Tutorial at [W3Schools JavaScript tutorial](https://www.w3schools.com/js/default.asp) to include JS Where To.
+
+**Language Type**
+JavaScript and Java appear to have a close relationship; however, they are actually very different. Although some consider JavaScript to be an object-oriented language, its style is very different from the object-oriented structure of Java. In JavaScript, objects are dynamic, as data members and methods of an object can change during execution. With Java, objects are predefined in a sense that their data members and methods are fixed at compile time. The similarity between JavaScript and Java is the syntax of expressions and statements.
+
+JavaScript can be divided into three parts: core, client side, and server side. The core is the heart of the language. The client side is a collection of objects that support the control of the browser and interaction with users. Server side JavaScript is used less frequently than the client side; therefore, we will not cover the server side.
+
+When computers communicate over a network, generally one acts as a client and the other as a server. A client will initiate communication, which is usually a request for information stored on a server. In reply, the server sends the information back to the client. The Web is a very good example of a client/server relationship.
+
+Documents are requested from a server by a browser. The server then locates the document and sends it back to the browser which is then displayed for the user.
+
+**Javascript Placement**
+JavaScript code can be placed anywhere in an HTML document; however, preferred placement is in the \<head\>, \<body\>, or included as an external file inside the \<head\> section. JavaScript can appear directly as the content of a \<script\> tag. The type attribute of \<script\> must be set to "text/javascript". JavaScript can also be indirectly embedded in an HTML document using the src attribute of a \<script\> tag, with the value set to the JavaScript file name, such as src="my_script.js".
+
+**Language Style**
+
+- Lightweight - JavaScript was originally considered to be fast, easy, and simple. However, with the increasing changes to the language, it is moving away from being considered lightweight.
+- Dynamic - JavaScript has the capability of being modified while running. One example might be a previously existing function or object that is altered due to user input.
+- Loosely Typed - Variables can be declared without specifying the type, which can be converted during the execution of the script.
+- Dialog Boxes - JavaScript has dialog boxes that can be for user interaction; alert ( ), confirm ( ), and prompt ( ). Although these types of dialogs were largely used in the past, they have been replaced with more user-friendly ways of obtaining user input.
+Reserved Words -
+
+| | | | | |
+|:-:|:-:|:-:|:-:|:-:|
+|break|delete|function|return|typeof|
+|case|do|if|switch|var|
+|catch|else|in|this|void|
+|continue|finally|instanceof|throw|while|
+|default|for|new|try|with|
+
+**Syntax**
+
+- Case-sensitive – Similar to other languages such as C++ and Java, JavaScript is a case-sensitive language. This means that all of the language keywords, variables, function, and other identifiers must be typed with a continual capitalization of letters.
+- Whitespace – In JavaScript, the use of excessive whitespace is ignored, such as multiple spaces, tabs, and returns.
+- Semicolons – Although many users prefer semicolons, in JavaScript they are usually not required. When a semicolon is needed, JavaScript adds it behind the scenes, known as Automatic Semicolon Insertion. JavaScript often allows a return in place of a semicolon.
+
+**Syntax Comments and Statements**
+
+*Comments:*
+
+Comments about JavaScript code can be placed in two different forms. These two comment forms are very common and used in several other languages. First, we have single line format that starts with two slashes (//) making the following portion of the line comments.
+
+```js
+code // comments or
+// comments
+```
+
+Next, we have multiple line format that starts with /* and ends with:
+
+```js
+/*
+- comments
+*/
+```
+
+*Statements:*
+
+JavaScript statements are used to perform an action and whenever possible, they should be safely placed on a single line. Some types of statements are variables, selections, loops, and object use.
+
+#### Discussion Board
+
+Using the ***100 Things Every Designer Should Know About People*** reading assignment, select two (2) of the "things" you read about, include the number and title of the "thing" (i.e. #36 Time is Relative), and then do two embellishments, one embellishment and one visual example, or two visual examples.
+
+- **Embellish:** Tell us something that the reading did not tell us on that specific "thing" or embellish on what was presented. Be sure you are adding meaningful content to the conversation and not just making noise. Your addition can be a link to an article, or you can write out your embellishment.
+- **Visual Example:** Provide us with a graphic example that is relevant to web design. This can be something you create or something you find. Again, be sure to add meaningful content to the conversation.
+
+#### Assignments
+
+##### Assignment 9.2: bioSite Peer Review:
+For this assignment, you will be submitting the bioSite project for peer review!
+
+**Instructions/Deliverables**
+
+1) By Friday this week, create a new thread in the bioSite: Project discussion board area and post the URL to your bioSite repository's GitHub pages (20 points)
+1) By Sunday, complete two peer reviews of two different bioSite projects (30 points; 15 points for each review)
+    - The peer review must be a minimum of 150 words and include at least 2 positive and 2 “areas of improvement” critiques
+    - Either post your peer review as a response, or save as a .pdf and post.
+    - For help on how to formulate your thoughts, refer to the Critique Guidelines on blackboard.
+
+##### Assignment 9.3: Javascript Exercise, Part1
+
+For this assignment, you will add JavaScript capability to previous code. For this assignment, you won't need to create a separate JavaScript file, but you can if you like.
+
+**Assignment Instructions**
+- Create a new folder under your local csd-340 folder (repository) and name it module-9
+- Make a copy of LastName_Mod2_2.html and add it to your module-9 directory. Rename the file to LastName_Mod9_3.html
+- Add a link in the index.html file to the new 9.3 HTML file
+    - Hint: Refer back to assignment 4.2 if you are confused about what this item is referencing
+- Contents of LastName_Mod9_3.html
+    - Make sure HTML page title says “CSD 340 Web Development with HTML and CSS”
+    - Rename the h1 text value to “Assignment 9.3: JavaScript - Part 1”
+    - Write at least three paragraphs; either a short story about you, or a poem, or movie dialog.. etc.
+    - Place four <span> tags containing a blank line (underscores) for four words.
+    - Declare four javascript variables holding the string inputs for these span tags.
+    - Create a button for each tag that will replace the underscores when selected.
+    - For this assignment, you are to create and test a page similar to the one shown on blackboard.
+
+**Deliverables**
+- URL to your repositories GitHub pages website
+- module-9 directory packaged as a .zip file
