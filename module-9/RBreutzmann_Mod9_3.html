@@ -1,0 +1,137 @@
+<!--
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 9.3
+    Due Date: March 1st, 2026
+-->
+
+
+<!--
+    Declare four javascript variables holding the string inputs for these span tags.
+    For this assignment, you are to create and test a page similar to the one shown below.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RBreutzmann_Mod9_3.css">
+    <script src="RBreutzmann_Mod9_3.js"></script>
+    <title>CSD 340 Web Development with HTML and CSS</title> <!--Make sure HTML page title says “CSD 340 Web Development with HTML and CSS”-->
+</head>
+
+<body>
+    <header>
+        <h1>Assignment 9.3 - JavaScript Part 1</h1>  <!--Rename the h1 text value to “Assignment 9.3: JavaScript - Part 1”-->
+    </header>
+
+
+    <!--
+        Write at least three paragraphs; either a short story about you, or a poem, or movie dialog.. etc.
+        
+        For your reading pleasure, I used the prologue of the story I've been working on off and on for the last 2 years.  It's set in the fantasy world I made that I run my D&D campaigns in.  :)
+
+        Place four <span> tags containing a blank line (underscores) for four words. 
+        word1 = Kitness
+        word2 = Azrial
+        word3 = Rite
+        word4 = Ren
+    -->
+    <main>
+        <h2>Prologue</h2>
+    
+        <p>
+            The entire village of <span class="word1">________</span> was gathered at the edge of the town square, where the atmosphere was set for a party, lit lanterns, tables with food and drink, and music being played by the bards. All this to bid farewell to one of their own. <span class="word2">_______</span> was preparing for his <span class="word3">____</span>.
+        </p>
+    
+        <p>
+            Most come back after a year or two with stories to tell of the wider world. A few never return. If three years pass with no return, with or without word, they are declared dead, mourned at the next festival, and quietly removed from the town's registry. Tonight was <span class="word2">_______</span>'s turn. However, while the rest of <span class="word1">________</span> got drunk and sang farewell songs, two figures stood beneath a grove of snow-crowned pines, arguing in hushed tones that didn't match the mood.
+        </p>
+    
+        <p>
+            “I still don't understand why you have to do this ridiculous tradition,” <span class="word4">____</span> Felis hissed, tail lashing. Her black fur, which was always a little ruffled when she was anxious, was practically standing on end.
+        </p>
+    
+        <p>
+            “Because I want to see the world with my own eyes,” <span class="word2">_______</span> said, his tone gentle but unwavering. His silver scales almost blended in with the snow on the ground.
+        </p>
+    
+        <p>
+            <span class="word4">____</span>'s ears twitched with frustration. “You can see the world in the libraries. You can learn everything from the scrolls and tomes and maps, and you can stay safe while doing it. Why risk everything for something you could read about?”  <em>Silly stupid risks.  Why risk your life when everything you need is right here,</em> she thought.
+        </p>
+    
+        <p>
+            “Because reading about the ocean isn't the same as smelling salt on the wind.” <span class="word2">_______</span> smiled. “Because the world is real out there, <span class="word4">____</span>. And I want to understand it, not just study it.”
+        </p>
+    
+        <p>
+            <em>How can he be so calm about this?</em> she thought.  “Then take me with you,” <span class="word4">____</span> snapped, though she regretted it the instant it left her mouth.
+        </p>
+    
+        <p>
+            <span class="word2">_______</span>'s smile curved upward. “Please do. Keep me safe. Keep me out of trouble.”
+        </p>
+    
+        <p>
+            She glared at him. “You know I can't. You know why.”
+        </p>
+    
+        <p>
+            The memory of many council meetings where <span class="word4">____</span> raised her objects to the <span class="word3">____</span> came to her memory.  <em>Not worth the risk,</em> she thought, thinking of friends who never returned home.  She was dismissed every time in the name of tradition.
+        </p>
+    
+        <p>
+            <span class="word2">_______</span> folded his arms. “Then maybe you should stay here and keep the Council from kicking me out of the town records.”
+        </p>
+    
+        <p>
+            That landed. They stood in silence for a long moment, the murmur of distant music rising from the village square behind them. Fireworks started to go off in the distance. <em>If ever there's an excuse for wizards to show off with a fireworks display, they're going to take it,</em> thought <span class="word4">____</span>.
+        </p>
+    
+        <p>
+            “I don't want to fight,” <span class="word2">_______</span> said at last, more softly. “I'm leaving town. Not just because it's what we do here. I want to see the places you read about. The places you made me dream about. I want to learn from more than just the elders. I want to know what the world is really like, and bring that knowledge home. I want to be able to write one of those scrolls that tells our future generations how the world runs.” He stepped closer, his voice now barely above a whisper. “I will come back, <span class="word4">____</span>. I promise.”
+        </p>
+    
+        <p>
+            <span class="word4">____</span> swallowed. Her claws flexed around the hem of her cloak. Her heart was a tangle of thorns, fear, pride, guilt, and perhaps even love. <em>This might be the last time I ever see him,</em> she thought, <em>and I'm wasting it on an argument.</em>
+        </p>
+    
+        <p>
+            “You're right, of course,” she said, forcing a smile. “Go. Make your memories. And bring back the stories.”
+        </p>
+    
+        <p>
+            <span class="word2">_______</span>'s face softened. “You'll miss me.”
+        </p>
+    
+        <p>
+            “Not a chance,” she said. But her voice cracked, just slightly.
+        </p>
+    </main>
+
+    <hr />
+
+    <!-- 
+    Create a button for each tag that will replace the underscores when selected.
+    I decided to go a little further and have the button replace the blank if the word is alrady in. 
+    -->
+    <div class="buttons">
+        <button onclick="toggleWord1(this)">Reveal Town Name</button>
+        <button onclick="toggleWord2(this)">Reveal Secondary Character Name</button>
+        <button onclick="toggleWord3(this)">Reveal Ritual Name</button>
+        <button onclick="toggleWord4(this)">Reveal Main Character Name</button>
+    </div>
+    
+    <footer>
+        <div id="foot_left">
+            &copy; 2026, Breutzmann. All Rights Reserved.
+        </div>
+        <div id="foot_right">
+            <p><a href="../index.html">Landing Page</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
