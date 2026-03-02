@@ -833,7 +833,7 @@ For this assignment, you will be learning how to create and style HTML tables.
 
 ## Week Seven
 
-**Monday, February 23, 2026 to Sunday February 29, 2026**
+**Monday, February 23, 2026 to Sunday March 1, 2026**
 
 ### Module Nine: bioSite Peer Review and Introduction to JavaScript
 
@@ -948,3 +948,64 @@ For this assignment, you will add JavaScript capability to previous code. For th
 **Deliverables**
 - URL to your repositories GitHub pages website
 - module-9 directory packaged as a .zip file
+
+## Week Eight
+
+**Monday, March 2, 2026 to Sunday March 8, 2026**
+
+### Module Ten:  bioSite Final Version and Javascript Event Handling
+
+In this module, you will be revising current code to include the manipulation of JavaScript arrays. As you've already had a few programming classes, much of the material, such as looping, iteration, and the characteristics of arrays, will be a review. Module Deliverables
+
+#### Deliverables
+
+- Module 10.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 10.2 Assignment: bioSite: Revise and Submit - Due by Sunday 11:59 p.m., CST.
+- Module 10.3 Assignment: JavaScript Exercise Part 2 - Due by Sunday 11:59 p.m., CST.
+
+#### Readings and Video
+
+- 100 Things - Numbers 77 - 84
+- Read the [JavaScript Tutorial](https://www.w3schools.com/js/default.asp) to include JS Events.
+
+#### Discussion Board
+
+Using the ***100 Things Every Designer Should Know About People*** reading assignment, select two (2) of the "things" you read about, include the number and title of the "thing" (i.e. #36 Time is Relative), and then do two embellishments, one embellishment and one visual example, or two visual examples.
+
+- **Embellish:** Tell us something that the reading did not tell us on that specific "thing" or embellish on what was presented. Be sure you are adding meaningful content to the conversation and not just making noise. Your addition can be a link to an article, or you can write out your embellishment.
+- **Visual Example:** Provide us with a graphic example that is relevant to web design. This can be something you create or something you find. Again, be sure to add meaningful content to the conversation.
+
+#### Assignments
+
+##### Assignment 10.2: bioSite: Final Submission
+
+For this assignment, you will submit the final solution to your instructor by packaging the entire bioSite project into a single zip file and uploading it to the Assignment link above.
+
+1) GitHub:
+    - Stage, commit, and push your work to GitHub
+    - Click on the following link for instructions: GitHub Stage, Commit, and Push
+2) Deliverables:
+    - bioSite project, packaged in a single zip file
+
+##### Assignment 10.3: JavaScript Exercise, Part 2
+
+For this assignment, you will be working with event handling, you won't need to create a separate JavaScript file, but you can if you like.
+
+**Assignment Instructions**
+
+- Create a new folder under your local csd-340 folder (repository) and name it module-10
+- Create a new HTML document named LastName_Mod10.3.html
+- Add a link in the index.html file to the new 10.3 HTML file
+    - Hint: Refer back to assignment 4.2 if you are confused about what this item is referencing
+- Contents of LastName_Mod10_3.html
+    - Make sure HTML page title says “CSD 340 Web Development with HTML and CSS”
+    - Rename the h1 text value to “Assignment 10.3: JavaScript - Part 2”
+    - Download the zipped file Module 10 Example.
+    - Create a page similar to the example attached to this assignment that alters the display based on user input. You must use your own graphics. Be creative!
+    - Create a JavaScript function that is executed when an image is clicked, using the “onclick” MouseEvent.
+
+**Deliverables**
+
+- URL to your repositories GitHub pages website
+- module-10 directory packaged as a .zip file
