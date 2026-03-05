@@ -1,0 +1,122 @@
+/*
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 10.3
+    Due Date: March 8th, 2026
+*/
+
+header {
+    background-color: #4F3674;
+    /* Bellevue University Purple */
+    color: #FFFFFF;
+    border: 1px solid #D6A800;
+    /* Bellevue University Gold */
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #f4ecd8;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+main {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* This defines the */
+.character-card {
+    width: 350px;
+    height: 350px;
+    background: black; /* Fills empty space on the card with Black */
+    perspective: 1000px;
+    cursor: pointer; /* Changes cursor to a pointer to signal clickability */
+}
+
+/* This is the "rotating object" containing the "card-front" and "card-back"*/
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d; /* This makes the flip look like a card flipping over */
+}
+
+
+/* This is triggered by the JavaScript, it flips the .card-inner when the character-card is clicked */
+.character-card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+/* The classes "card-front" and "card-back" are attached to either "side" of "card-inner" */
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card-front img, .card-back img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the entire image is visible while preserving aspect ratio */
+    object-position: center;
+}
+
+/* Flips the backface so it isn't backwards */
+.card-back { 
+    transform: rotateY(180deg);
+}
+
+#text {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: grey;
+}
+
+footer {
+    background-color: #4F3674;
+    position: fixed; 
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#foot_left {
+    font-size: 0.8em;
+    color: #999;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
