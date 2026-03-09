@@ -1009,3 +1009,50 @@ For this assignment, you will be working with event handling, you won't need to 
 
 - URL to your repositories GitHub pages website
 - module-10 directory packaged as a .zip file
+
+## Week Nine
+
+**Monday, March 9, 2026 to Sunday March 15, 2026**
+
+### Module 11: JavaScript Array Manipulation
+
+In this module, you will be working with event handling and manipulation of JavaScript arrays to create an interactive To Do List. As you've already had a few programming classes, much of the material, such as looping, iteration, and the characteristics of arrays, will be a review.
+
+#### Deliverables
+
+- Module 11.1 Discussion Board Initial Post - Due by Thursday 11:59 p.m., CST.
+- Discussion Board Responses - Due by Sunday 11:59 p.m., CST.
+- Module 11.2 Assignment: JavaScript Exercise Part 3 - Due by Sunday 11:59 p.m., CST.
+
+#### Reading and Video
+
+- 100 Things - Numbers 85 - 100
+- Read the JavaScript Tutorial at [W3 Schools](https://www.w3schools.com/js/default.asp) to include JS Events.
+
+#### Discussion Board
+
+Using the ***100 Things Every Designer Should Know About People*** reading assignment, select two (2) of the "things" you read about, include the number and title of the "thing" (i.e. #36 Time is Relative), and then do two embellishments, one embellishment and one visual example, or two visual examples.
+
+- **Embellish:** Tell us something that the reading did not tell us on that specific "thing" or embellish on what was presented. Be sure you are adding meaningful content to the conversation and not just making noise. Your addition can be a link to an article, or you can write out your embellishment.
+- **Visual Example:** Provide us with a graphic example that is relevant to web design. This can be something you create or something you find. Again, be sure to add meaningful content to the conversation.
+
+#### Assignments
+
+##### Assignment 11.2: JavaScript Exercise, Part 3
+
+For this assignment, you will be creating a To Do List. You won't need to create a separate JavaScript file, but you can if you like. You'll need a text box, three buttons, and instructions for the user. You do not need to follow the example in page design in terms of button placement, or size, or color; feel free to be creative.
+
+**Assignment Details**
+
+- Create a new folder under your local csd-340 folder (repository) and name it module-11
+- Create an HTML file and name the file LastName_Mod11_2.html
+- Add a link in the index.html file to the new LastName_Mod11.2 HTML file
+    - Hint: Refer back to assignment 4.2 if you are confused on what this item is referencing
+- Contents of LastName_Mod11_2.html
+    - Make sure HTML page title says “CSD 340 Web Development with HTML and CSS”
+    - Rename the h1 text value to “Assignment 11.2: JavaScript - Part 3”
+    - Create a text box and three buttons. One button should be labeled "Add", one button should be labled "Delete Last Entry", last button should be labeled "Sort".
+    - Create a JavaScript section. Add a function for adding an element to an array, a function for deleting an element in an array, a function for displaying the contents of the array, and a function for sorting the array.
+        - When the Add button is clicked, the contents of the text box should be added to an array using a function. The user should also see an alert pop up that lets them see what was added. The user should then see a display of things to do.
+        - When the Sort button is clicked, the contents of the array should be sorted. The user should also see an alert pop up that lets them know the sort took place.The user should then see a display of things to do.
+        - When the Delete Last Entry button is clicked, the last element of the array should be deleted using a function. The user should also see an alert pop up that lets them see what was deleted. The user should then see a display of things to do. Optional: Allow user to select which item to be deleted.
