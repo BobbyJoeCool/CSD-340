@@ -1,0 +1,55 @@
+<!--
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 11.2
+    Due Date: March 15th, 2026
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RBreutzman_Mod11_2.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+    <header>
+        <h1>Assignment 11.2: JavaScript - Part 3</h1>
+    </header>
+
+    <main>
+        <div id="add-box">
+            <p>Enter a task below then click "add" or press enter to save it.</p>
+            <p><input type="text" id="list-entry"></p>
+            <p>
+                <button type="button" id="add" onClick="addToArray()">Add</button>
+                <button type="button" id="delete-last" onClick="deleteLast()">Delete Last Entry</button>
+                <button type="button" id="sort" onClick="sortArray()">Sort</button>
+            </p>
+            <p>You can click "Sort" to sort the entries alphabetically.</p>
+            <p>Clicking "Delete Last Entry" delete the last item on your to-do list.</p>
+        </div>
+
+        <div id="todo-list">
+            <p id="todo-list-display">
+                No Items to Display.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="foot_left">
+            &copy; 2026, Breutzmann. All Rights Reserved.
+        </div>
+        <div id="foot_right">
+            <p><a href="../index.html">Landing Page</a></p>
+        </div>
+    </footer>
+
+    <script src="RBreutzmann_Mod11_2.js"></script>
+</body>
+
+</html>

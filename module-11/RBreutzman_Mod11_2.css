@@ -1,0 +1,130 @@
+/*
+    Breutzmann, Robert
+    CSD 340 - Web Development with HTML and CSS
+    Assignment 11.2
+    Due Date: March 15th, 2026
+*/
+
+header {
+    background-color: #4F3674;  /* Bellevue University Purple */
+    color: #FFFFFF;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #D6A800;  /* Bellevue University Gold */
+}
+
+h1 {
+    font-weight: 400;
+}
+
+main {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#add-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+#add-box p {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+#text {
+    padding: 5px;
+}
+
+#list-entry {
+    width: 100%;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+#add {
+    background-color: darkgreen;
+    color: white;
+}
+
+#add:hover {
+    background-color: green;
+    transform: translateY(-2px);
+}
+
+#delete-last {
+    background-color: darkred;
+    color: white;
+}
+
+#delete-last:hover {
+    background-color: red;
+    transform: translateY(-2px);
+}
+
+#sort {
+    background-color: darkblue;
+    color: white;
+}
+
+#sort:hover {
+    background-color: blue;
+    transform: translateY(-2px);
+}
+
+footer {
+    background-color: #4F3674;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#foot_left {
+    font-size: 0.8em;
+    color: #999;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-right: 10px;
+    font-style: italic;
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
