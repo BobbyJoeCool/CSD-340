@@ -16,6 +16,7 @@ function addToArray() {
 
     // If the entry box is empty, do nothing.
     if (input.trim() === "") {
+        alert("Input Box Empty.")
         return;
     }
 
